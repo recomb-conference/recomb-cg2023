@@ -1,0 +1,208 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RECOMB-CG: Comparative Genomics</title>
+
+  <!-- Favicons -->
+  <!-- link href="./assets/img/favicon.png" rel="icon">
+  <!-- link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+ 
+
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+    
+      <div>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <h1>20th RECOMB-CG 2023<span>.</span></h1>
+      </a>
+      <p>April 14-15, 2023, Istanbul, Turkey</p>
+      </div>
+  <nav id="navbar" class="navbar"><ul>
+<li><a href="index.php.html">Home</a></li>
+<li><a href="submit.php.html">Submit</a></li>
+<li><a href="program.php.html">Program</a></li>
+<li><a href="http://recomb2023.bilkent.edu.tr/register.html">Register</a></li>
+<li><a href="http://recomb2023.bilkent.edu.tr/venue_satellites.html">Participate</a></li>
+<li><a href="committees.php.html">Committees</a></li>
+<li><a href="history.php.html">History</a></li>
+<li><a href="http://recomb2023.bilkent.edu.tr/">RECOMB</a></li>
+</ul></nav>
+
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+</div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="container">
+<div class="section-header"><h1>Accepted posters</h1></div>
+<div class="row">
+<div class="col-lg-12">
+<ul>
+<li><a href="posters.php.html#627">Unikseq: unique region identification in genome sequences using a k-mer approach, to empower environmental DNA assay designs and comparative genomics studies.</a> Rene Warren, Michael J Allison, M. Louie Lopez, Neha Acharya-Patel, Lauren Coombe, Cecilia L. Yang, Caren C Helbing and Inanc Birol
+<li><a href="posters.php.html#671">SequenceFlow - interactive web application for visualizing Partial Order Alignments.</a> Krzysztof Zdąbłasz, Anna Lisiecka and Norbert Dojer
+<li><a href="posters.php.html#674">Adversarial and variational autoencoders improve metagenomic binning.</a> Pau Piera Lindez, Joachim Johansen, Arnor Ingi Sigurdsson, Jakob Nybo Nissen and Simon Rasmussen
+<li><a href="posters.php.html#687">Efficient Analysis of Annotation Colocalization Accounting for Genomic Contexts.</a> Askar Gafurov, Tomas Vinar, Paul Medvedev and Broňa Brejová
+<li><a href="posters.php.html#693">REvolutionH-tl: Reconstruction of Evolutionary Histories tool.</a> José Antonio Ramírez-Rafael, Alitzel López-Sánchez, Katia Aviña-Padilla, Andrea Arlette España-Tinajero and Maribel Hernández-Rosales
+<li><a href="posters.php.html#694">Prior Density Learning in Variational Bayesian Phylogenetic Parameters Inference.</a> Amine Remita, Golrokh Kiani and Abdoulaye Baniré Diallo
+
+</ul>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-lg-12">
+<a name="627"><p>&nbsp;</p></a>
+<p>&nbsp;</p>
+<h4>Unikseq: unique region identification in genome sequences using a k-mer approach, to empower environmental DNA assay designs and comparative genomics studies</h4>
+<p>
+<b>Rene Warren, Michael J Allison, M. Louie Lopez, Neha Acharya-Patel, Lauren Coombe, Cecilia L. Yang, Caren C Helbing and Inanc Birol</b>
+
+<p>
+<p>The genomics revolution of the past two decades has resulted in an exponential growth of genome sequences hosted in public repositories, providing a wealth of genetic information for thousands of Earth’s species. This is opening up new research fields, such as species monitoring and conservation using environmental DNA (eDNA), in ways not thought possible only a few years ago. Conversely, the sudden access to massive amounts of DNA sequences is creating computational bottlenecks for comprehensive comparative genomics studies.
+<p>We present unikseq, a utility that uses substrings of length k (k-mers) to identify unique regions in a reference sequence relative to tolerated (ingroup) and not-tolerated (outgroup) sequence sets, quickly and with low memory. Applications of unikseq include qPCR assay design, where the identification of unique regions likely to yield specific assays helps to narrow the primer-probe search space considerably. For instance, with unikseq, thousands of complete animal mitochondrial genomes (MtG) can be simultaneously compared in seconds (e.g. ~2m and 9 GB RAM running unikseq on 4,000 MtG). This whole-genome analysis substantially increases the sequence “real estate” compared to that of earlier eDNA assay designs based on one/few mitochondrial/marker genes such as the metazoan barcoding sequence resource, which includes portions of the mitochondrial cytochrome c oxidase I-encoding gene (Mt-COI).
+<p>We show how unikseq enabled the design of eDNA assays for species monitoring in challenging environments, including those with many closely related sympatric species, like that of S. maliger (rockfish), by identifying unique regions within a reference mitogenome.
+<p>With unikseq-Bloom, we further demonstrate the scalability of unikseq in identifying unique regions in white and interior (vs. Sitka and Engelmann) spruce using succinct Bloom filter data structures built from 3 x 20 Gbp genomes. Additionally, we present a scalable application to paleogenomics, where unique and conserved regions within whole Neanderthal and Denisovan vs. 5 modern human genomes are identified by unikseq-Bloom in ~2h using <42 GB RAM, illustrating how the utility can also be used to identify incomplete sequences in large genome assembly projects.
+<p>Unikseq makes full use of public genomic resources for high-quality eDNA assay design, without the need to manually parse through entire multiple sequence alignments or compromise between eDNA assay sensitivity and selectivity. We anticipate the broad application of unikseq for eDNA assay design and genome analysis across the tree of life. Unikseq and unikseq-Bloom are available on GitHub (https://github.com/bcgsc/unikseq).
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<a name="671"><p>&nbsp;</p></a>
+<p>&nbsp;</p>
+<h4>SequenceFlow - interactive web application for visualizing Partial Order Alignments</h4>
+<p>
+<b>Krzysztof Zdąbłasz, Anna Lisiecka and Norbert Dojer</b>
+
+<p>
+<p>Partial Order Alignment (POA) is an acyclic directed graph whose vertices are residues of the aligned sequences, and the edges connect successive residues in these sequences. In addition, the set of vertices is divided into clusters, which are equivalent to the columns in the standard alignment model, with identical symbols from aligned sequences in each cluster combined into a single vertex. As a result, the aligned sequences are represented by paths in the graph, and the common vertices of these paths are their identical residues. While the POA model proved useful in several applications (e.g. sequencing reads assembly and pangenome structure exploration), we lack efficient visualization tools that could highlight its advantages.
+<p>In the current work we propose SequenceFlow - a web application designed to address the above problem. SequenceFlow presents POAs as Sankey diagrams which provide a more intuitive alignment visualization than commonly used graphical representations of nodes and edges. SequenceFlow enables interactive alignment exploration, including fragment selection, highlighting a selected group of sequences, modification of the position of graph vertices, structure simplification etc. After adjustment, the visualizations can be saved in the form of graphic files with a quality suitable for scientific publications. Thanks to the use of SanKEY.js - a JavaScript library for creating Sankey diagrams, designed specifically for our website, SequenceFlow provides satisfactory performance even with large alignments.
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<a name="674"><p>&nbsp;</p></a>
+<p>&nbsp;</p>
+<h4>Adversarial and variational autoencoders improve metagenomic binning</h4>
+<p>
+<b>Pau Piera Lindez, Joachim Johansen, Arnor Ingi Sigurdsson, Jakob Nybo Nissen and Simon Rasmussen</b>
+
+<p>
+<p>Assembly of reads from metagenomic samples is a hard problem, often resulting in highly fragmented genome assemblies. Metagenomic binning allows us to reconstruct genomes by re-grouping the sequences by their organism of origin, thus representing a crucial processing step when exploring the biological diversity of metagenomic samples. Here we present Adversarial Autoencoders for Metagenomics Binning (AAMB), an ensemble deep learning approach that integrates sequence co-abundances and tetranucleotide frequencies into a common denoised space that enables precise clustering of sequences into microbial genomes. When benchmarked, AAMB presented similar or better results compared with the state-of-the-art reference-free binner VAMB, reconstructing ~7% more near-complete (NC) genomes across simulated and real data. In addition, genomes reconstructed using AAMB had higher completeness and greater taxonomic diversity compared with VAMB. Finally, we implemented a pipeline integrating VAMB and AAMB that enabled improved binning, recovering 20% and 29% more simulated and real NC genomes, respectively, compared to VAMB with moderate additional runtime. AAMB is freely available at https://github.com/RasmussenLab/VAMB.
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<a name="687"><p>&nbsp;</p></a>
+<p>&nbsp;</p>
+<h4>Efficient Analysis of Annotation Colocalization Accounting for Genomic Contexts</h4>
+<p>
+<b>Askar Gafurov, Tomas Vinar, Paul Medvedev and Broňa Brejová</b>
+
+<p>
+<p>An annotation is a set of genomic intervals sharing a particular function or property. Examples include genes, conserved elements, and epigenetic modifications. A common task is to compare two annotations in order to determine if one is enriched or depleted in the regions covered by another. We study the problem of assigning statistical significance to such a comparison based on a null model representing two random unrelated annotations.Previous approaches to this problem remain too slow or inaccurate in the face of growing amount of available annotations for comparison.
+
+<p>We propose a new null model based on a Markov chain which differentiates among several genomic contexts. These contexts can capture various confounding factors, such as sequencing gaps in the reference assembly, which would otherwise lead to biased results.
+We then develop a new algorithm for estimating p-values by computing the exact expectation and variance of the test statistics and then estimating the p-value using a normal approximation. Compared to the previous algorithm by Gafurov et al., the new algorithm provides three advances: (1) the running time is improved from quadratic to linear or quasi-linear, (2) the algorithm can handle two different test statistics, and (3) the algorithm can handle both simple and context-dependent Markov chain null models. We demonstrate the efficiency and accuracy of our algorithm on synthetic and real data sets, including the recent human telomere-to-telomere assembly.
+In particular, our algorithm computed p-values for 450 pairs of human genome annotations using 24 threads in under three hours.
+The use of genomic contexts to correct for GC-bias also resulted in the reversing of some previous findings.
+
+<p>
+Our work facilitates an important problem of assessment of statistical significance of overlaps between comparative genomics features (such as conserved regions or copy number variants) with other genomic features.
+
+<p>
+Availability: The software is freely available at https://github.com/fmfi-compbio/mcdp2 under the MIT licence.
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<a name="693"><p>&nbsp;</p></a>
+<p>&nbsp;</p>
+<h4>REvolutionH-tl: Reconstruction of Evolutionary Histories tool</h4>
+<p>
+<b>José Antonio Ramírez-Rafael, Alitzel López-Sánchez, Katia Aviña-Padilla, Andrea Arlette España-Tinajero and Maribel Hernández-Rosales</b>
+
+<p>
+<p>Reconciliation of gene trees with species trees and orthology relationships are the main components of evolutionary histories, which are fundamental to understanding the presence, distribution, and properties of genes across species. Herein we present REvolutionH-tl (gitlab.com/jarr.tecn/revolutionh-tl), a bioinformatics tool for evolution reconstruction that improves reconciliation and orthology prediction methods while accommodating duplications and gene losses along species trees. Our procedure is based on the construction of best match graphs, a theoretical characterization of non-necessarily reciprocal best hits, which underlie orthology relations among genes. We directly use such graphs for the reconstruction of event-labeled gene trees. Moreover, by reconciling the inferred gene trees against a species tree we bound the ancestry of duplication and gene losses. In addition, we spot gene trees whose topology contradicts the species tree, which help us to propose alternative hypotheses such as the existence of a horizontal gene transfer, the loss of a set of genes after duplication giving rise to pseudo-orthologs, among others.
+
+<p>We have compared the performance of REvolutionH-tl against Orthofinder and Proteinortho on both synthetic and real data, comparing three different aspects of evolutionary histories: i) gene family inference, ii) orthology prediction, and iii) gene tree topology. REvolutionH-tl has the best performance in these tests while decreasing computational requirements. This is particularly favorable considering that the output is composed of high-confidence reconciled trees and orthology predictions. REvolutionH-tl opens the possibility for the inference of whole-genome evolution for large sets of species, representing a bust for studies around pangenomics and comparative biology.
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<a name="694"><p>&nbsp;</p></a>
+<p>&nbsp;</p>
+<h4>Prior Density Learning in Variational Bayesian Phylogenetic Parameters Inference</h4>
+<p>
+<b>Amine Remita, Golrokh Kiani and Abdoulaye Baniré Diallo</b>
+
+<p>
+<p>The Bayesian phylogenetic community is exploring faster and more scalable alternatives to the Markov chain Monte Carlo (MCMC) approach to approximate the high dimensional Bayesian posterior. The search for other substitutes is motivated by the falling computational costs, increasing challenges in large-scale data analysis, advances in inference algorithms and implementation of efficient computational frameworks. Some alternatives are adaptive MCMC, Hamiltonian Monte Carlo, sequential Monte Carlo and variational inference (VI). Until recently, few studies were interested in applying classical variational approaches in probabilistic phylogenetic models. However, VI started to gain some attraction from the phylogenetic community taking advantage of advances that made it more scalable, generic and accurate, such as stochastic and black box VI algorithms, latent-variable reparametrization, and probabilistic programming. These advancements allowed designing of powerful and fast variational-based algorithms to infer complex phylogenetic models and analyze large-scale phylodynamic data.
+
+<p>Bayesian methods incorporate the practitioner's prior knowledge about the likelihood parameters through the prior distributions.
+Defining an appropriate and realistic prior is difficult, especially in small data regimes, similar sequences or parameters with complex correlations.
+Notably, the variational phylogenetic methods assign fixed prior distributions with default hyperparameters to the likelihood parameters, a similar practice in MCMC methods.
+However, such a choice could bias the posterior approximation and induce high posterior probabilities in cases where the data are weak, or the actual parameter values do not fall within the range specified by the priors.
+
+<p>Here, we show that variational phylogenetic inference can also suffer from misspecified priors on branch lengths and less severely on sequence evolutionary parameters. Further, we propose an approach and an implementation framework (nnTreeVB) to relax the rigidity of the prior densities by learning their parameters using a gradient-based method and a neural network-based parameterization.
+We applied this approach to estimate branch lengths and evolutionary parameters under several Markov chain substitution models.
+The results of performed simulations show that the approach is powerful in estimating branch lengths and evolutionary model parameters. They also show that a flexible prior model provides better results than a predefined prior model. Finally, the results highlight that using neural networks could improve the initialization of the optimization of the prior density parameters.
+
+<p>Reference: Remita A.M., Kiani G. and Diallo A.B. (2023) Prior Density Learning in Variational Bayesian Phylogenetic Parameters Inference.\ https://arxiv.org/abs/2302.02522.
+</div>
+</div>
+
+
+
+
+</div></section></main><footer id="footer" class="footer"><div class="container">
+       <div class="credits">
+       &copy; RECOMB-CG conference 2022<br>
+       Designed with help of <a href="https://bootstrapmade.com/">BootstrapMade</a>
+<br>Last modified: 04.04.2023
+</div></div></footer> 
+ <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  </body></html>
